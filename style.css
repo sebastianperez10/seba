@@ -1,0 +1,16 @@
+#myHeader{
+    background: lightblue;
+    text-align: center;
+    padding: 40px; /*da una especie de margen*/
+}
+
+.city{
+    background: tomato;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+span{
+    color: darkslateblue;
+    font-weight: bold;
+}

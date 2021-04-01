@@ -1,0 +1,117 @@
+#myDER{
+    height: 20px;
+    text-align: top;
+    font-family: 'Segoe UI';
+    color: rgb(196, 91, 0);
+    font-size: 80px;
+    margin: 0px 500px;
+
+
+}
+
+*{
+    padding: 0px;  /*padding y margen general*/
+    margin: 0px;
+}
+
+#header{
+    margin: auto;
+    width: 700px;
+    font-family: Arial;
+}
+
+ul, ol{
+    list-style: none; /*Sacarle el punto al menu*/
+}
+
+.nav li a{
+    color: rgb(117, 117, 117);
+    font-family: Arial;
+    text-decoration: none;
+    padding: 30px 20px;
+    display: block;
+    font-weight: bold;
+}
+
+.nav > li{
+    float: right; /*posicion del menu (de donde inicia)*/
+}
+
+#imagen{
+    margin:100px 570px;
+    display:block;
+}
+
+#footerDIRECCION{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+span{
+    color: rgb(228, 185, 105);
+    font-weight: bold;
+}
+
+
+
+#primerCUADRO{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background: lightskyblue;
+    margin: -90px 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    right: 1200px;
+    border-style: outset;
+}
+
+#segundoCUADRO{
+    text-align: center;
+    width: 165px;
+    height: 50px;
+    background:orange;
+    margin: -90px 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    right: 980px;
+    border-style: outset;
+}
+
+#tercerCUADRO{
+    text-align: center;
+    width: 165px;
+    height: 50px;
+    background: rgb(238, 105, 105);
+    margin: -90px 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    right: 750px;
+    border-style: outset;
+}
+
+#cuartoCUADRO{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background: lightseagreen;
+    margin: -90px 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    right: 550px;
+    border-style: outset;
+}
